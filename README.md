@@ -59,7 +59,7 @@ The dataset contains information on employees, including:
    ```
 3. Run the data preprocessing script:  
    ```bash
-   python data_preprocessing.py
+   python data_preprocessing.ipynb
    ```
 4. Explore analysis and forecasting notebooks.
 5. View visualizations in Tableau or Matplotlib.
