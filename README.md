@@ -41,6 +41,7 @@ The dataset contains information on employees, including:
   - 📈 Employee count trends over time by department.
 - 🖥️ Build a Tableau dashboard or use Matplotlib/Seaborn for visualizations.
 - 📝 Prepare a final report summarizing findings and insights.
+- /images/dashboard-tableau/Dashboard.png
 
 ## 🛠️ Tools & Technologies
 - 🐍 **Python** (pandas, numpy, matplotlib, scikit-learn)
