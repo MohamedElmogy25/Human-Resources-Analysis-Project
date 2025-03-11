@@ -51,7 +51,7 @@ The dataset contains information on employees, including:
 ## 🚀 How to Use
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/yourusername/hr-dataset-analysis.git
+   git clone https://github.com/MohamedElmogy25/Human-Resources-Dataset-Analysis.git
    ```
 2. Install required dependencies:  
    ```bash
