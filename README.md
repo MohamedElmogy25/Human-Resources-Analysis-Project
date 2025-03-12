@@ -28,6 +28,7 @@ The dataset contains information on employees, including:
 ### **📊 Week 3: Visualization & Insights**
 - 🎨 Create visualizations to answer analysis questions.
 ![HR Dashboard](dashboard-tableau/Dashboard.png)
+https://public.tableau.com/views/HRDatasetAnalysisDashboard/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 - Example charts:
   - 📊 **Employee Attrition Heatmap**: Analyzing job roles and their attrition rates based on overtime.
   - 📊 **Department-wise Employee Distribution**: A pie chart representing employee count across HR, Sales, and Technology.
