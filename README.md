@@ -1,12 +1,12 @@
 # 📊 HR Dataset Analysis
 
 ## 📌 Project Overview
-This project focuses on analyzing an HR dataset to gain insights into employee trends, performance, and attrition. The dataset is cleaned, processed, analyzed, and visualized to help decision-makers make data-driven decisions.
+This project focuses on analyzing an HR dataset to gain insights into employee trends, department-wise distribution, and attrition rates. The dataset is cleaned, processed, analyzed, and visualized to help decision-makers make data-driven decisions.
 
 ## 📂 Dataset Description
 The dataset contains information on employees, including:
 - **👤 Personal Information**: Age, Gender, Marital Status
-- **🏢 Employment Details**: Hire Date, Department, Job Role, Business Travel
+- **🏢 Employment Details**: Department, Job Role, Business Travel
 - **💰 Compensation & Tenure**: Salary, Years at Company, Years in Current Role
 - **📈 Performance Metrics**: Job Satisfaction, Performance Rating
 - **🚀 Attrition Factors**: Work-Life Balance, Distance from Home, OverTime
@@ -18,61 +18,45 @@ The dataset contains information on employees, including:
 - ✅ Standardize categorical data.
 - ✅ Save the cleaned dataset for further analysis.
 
-### **🔍 Week 2: Analysis Questions Phase**
+### **🔍 Week 2: Analysis Phase**
 - Identify key questions such as:
   - 📊 What is the relationship between employees' ages and their satisfaction levels?
   - 🏠 How does the distance from home affect attrition rates?
   - 👩‍💼 What is the gender distribution across departments?
-- Define analysis questions that help gain insights from the dataset.
+  - 📊 What impact does overtime have on attrition rates?
 
-### **📈 Week 3: Forecasting Questions Phase**
-- Identify forecasting trends using the dataset.
-- Example questions:
-  - 📉 What is the predicted attrition rate based on current trends?
-  - 💵 How will salary levels evolve over the next 5 years?
-  - 🏢 Which departments are likely to see the most employee growth?
-- Implement forecasting models using Python (scikit-learn, pandas, Matplotlib).
-
-### **📊 Week 4: Visualization Dashboard & Final Report**
-- 🎨 Create visualizations to answer analysis and forecasting questions.
-- Example charts:
-  - 📊 Bar chart for salary distribution by department.
-  - 📉 Attrition rates based on overtime.
-  - 📈 Employee count trends over time by department.
-- 🖥️ Build a Tableau dashboard or use Matplotlib/Seaborn for visualizations.
-- 📝 Prepare a final report summarizing findings and insights.
+### **📊 Week 3: Visualization & Insights**
+- 🎨 Create visualizations to answer analysis questions.
 ![HR Dashboard](dashboard-tableau/Dashboard.png)
+- Example charts:
+  - 📊 **Employee Attrition Heatmap**: Analyzing job roles and their attrition rates based on overtime.
+  - 📊 **Department-wise Employee Distribution**: A pie chart representing employee count across HR, Sales, and Technology.
+  - 📊 **Employee Attrition Analysis**: A bar chart showing attrition rates across the company.
+- 🎨 By using Tableau .
+
+### **📜 Week 4: Final Report & Dashboard**
+- 📈 Summarize findings and key takeaways.
+- 📝 Provide actionable insights for HR decision-making.
+- 📊 Present a Tableau dashboard showcasing:
+  - Attrition trends
+  - Employee distribution across departments
+  - Impact of overtime on attrition
+  - Job role-wise attrition heatmap
 
 ## 🛠️ Tools & Technologies
-- 🐍 **Python** (pandas, numpy, matplotlib, scikit-learn)
-- 🗄️ **SQL** for data querying and transformation
+- 🐍 **Python** (pandas, numpy, matplotlib, seaborn, scikit-learn)
+- 💽 **SQL** for data querying and transformation
 - 📊 **Tableau** for interactive visualizations
 - 📓 **Jupyter Notebook** for analysis and modeling
 
-## 🚀 How to Use
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/MohamedElmogy25/Human-Resources-Dataset-Analysis.git
-   ```
-2. Install required dependencies:  
-   ```bash
-   pip install pandas numpy matplotlib scikit-learn
-   ```
-3. Run the data preprocessing script:  
-   ```bash
-   python data_preprocessing.ipynb
-   ```
-4. Explore analysis and forecasting notebooks.
-5. View visualizations in Tableau or Matplotlib.
-
 ## 👥 Contributors
 - **Mohamed Elmogy** - 🛠️ Data Cleaning & Preprocessing
-- **Nourhan Farag** - 📊 Analysis & Forecasting
+- **Nourhan Farag** - 📊 Analysis & Insights
 - **Doha Mostafa** - 🎨 Visualization & Reporting
-- **Abdelrahman Yasser** - 📈 Forecasting & Trends Analysis
+- **Abdelrahman Yasser** - 📈 Data Trends & Forecasting
 - **Seham Mostafa** - 📂 Data Management & Processing
 - **Bassant Yasser** - 📊 Dashboard & Report Creation
 
-## 📜 License
+## 🐟 License
 This project is open-source and available under the MIT License.
 
