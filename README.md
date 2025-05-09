@@ -51,12 +51,10 @@ https://public.tableau.com/views/HRDatasetAnalysisDashboard/Dashboard?:language=
 - 📓 **Jupyter Notebook** for analysis and modeling
 
 ## 👥 Contributors
-- **Mohamed Elmogy** - 🛠️ Data Cleaning & Preprocessing
-- **Nourhan Farag** - 📊 Analysis & Insights
-- **Doha Mostafa** - 🎨 Visualization & Reporting
-- **Abdelrahman Yasser** - 📈 Data Trends & Forecasting
-- **Seham Mostafa** - 📂 Data Management & Processing
-- **Bassant Yasser** - 📊 Dashboard & Report Creation
+- **Mohamed Elmogy** -
+- **Nourhan Farag** -
+- **Doha Mostafa** -
+- **Bassant Yasser** -
 
 ## 🐟 License
 This project is open-source and available under the MIT License.
