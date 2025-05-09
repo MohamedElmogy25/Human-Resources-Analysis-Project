@@ -1,58 +1,62 @@
-# 📊 HR Dataset Analysis
+# HR Analytics and Employee Performance Analysis
 
-## 📌 Project Overview
-This project focuses on analyzing an HR dataset to gain insights into employee trends, department-wise distribution, and attrition rates. The dataset is cleaned, processed, analyzed, and visualized to help decision-makers make data-driven decisions.
+## 📊 Overview
 
-## 📂 Dataset Description
-The dataset contains information on employees, including:
-- **👤 Personal Information**: Age, Gender, Marital Status
-- **🏢 Employment Details**: Department, Job Role, Business Travel
-- **💰 Compensation & Tenure**: Salary, Years at Company, Years in Current Role
-- **📈 Performance Metrics**: Job Satisfaction, Performance Rating
-- **🚀 Attrition Factors**: Work-Life Balance, Distance from Home, OverTime
+This project presents a comprehensive analysis of a human resources dataset aimed at uncovering insights related to employee performance, satisfaction, and attrition. By integrating multiple data sources—including employee demographics, job roles, satisfaction scores, training participation, and performance evaluations—the project provides decision-makers with a data-driven foundation for strategic HR planning and workforce optimization.
 
-## 📅 Project Phases
-### **🛠️ Week 1: Data Cleaning & Preprocessing**
-- ✅ Convert date columns to datetime format.
-- ✅ Handle missing values and outliers.
-- ✅ Standardize categorical data.
-- ✅ Save the cleaned dataset for further analysis.
+---
 
-### **🔍 Week 2: Analysis Phase**
-- Identify key questions such as:
-  - 📊 What is the relationship between employees' ages and their satisfaction levels?
-  - 🏠 How does the distance from home affect attrition rates?
-  - 👩‍💼 What is the gender distribution across departments?
-  - 📊 What impact does overtime have on attrition rates?
+## 🔍 Objectives
 
-### **📊 Week 3: Visualization & Insights**
-- 🎨 Create visualizations to answer analysis questions.
-- Example charts:
-  - 📊 **Employee Attrition Heatmap**: Analyzing job roles and their attrition rates based on overtime.
-  - 📊 **Department-wise Employee Distribution**: A pie chart representing employee count across HR, Sales, and Technology.
-  - 📊 **Employee Attrition Analysis**: A bar chart showing attrition rates across the company.
-- 🎨 By using Tableau .
+- Identify factors influencing employee attrition
+- Analyze the relationship between satisfaction, training, and performance
+- Assess fairness in compensation, promotion, and recognition
+- Provide actionable insights for workforce planning and employee engagement
 
-### **📜 Week 4: Final Report & Dashboard**
-- 📈 Summarize findings and key takeaways.
-- 📝 Provide actionable insights for HR decision-making.
-- 📊 Present a Tableau dashboard showcasing:
-  - Attrition trends
-  - Employee distribution across departments
-  - Impact of overtime on attrition
-  - Job role-wise attrition heatmap
-![HR Dashboard](dashboard-tableau/Dashboard.png)
+---
+
+## 🗂️ Dataset Description
+
+The dataset is structured across multiple Excel sheets:
+
+### 1. `Employee`
+Contains demographic and employment information such as department, salary, gender, age, attrition status, and tenure-related attributes.
+
+### 2. `PerformanceRating`
+Captures self and manager performance ratings, satisfaction scores, work-life balance, and training metrics.
+
+### 3. `EducationLevel`
+Maps numeric education levels to descriptive categories (e.g., High School, Bachelors, Masters).
+
+### 4. `RatingLevel`
+Defines qualitative labels for numeric performance ratings (e.g., Meets Expectation, Above and Beyond).
+
+### 5. `SatisfiedLevel`
+Describes satisfaction level categories (e.g., Very Satisfied, Neutral, Dissatisfied).
+
+---
 
 ## 🛠️ Tools & Technologies
-- 🐍 **Python** (pandas, numpy, matplotlib, seaborn, scikit-learn)
-- 💽 **SQL** for data querying and transformation
-- 📊 **Tableau** for interactive visualizations
-- 📓 **Jupyter Notebook** for analysis and modeling
+
+- **Python** (pandas, matplotlib, seaborn)
+- **Jupyter Notebook / Google Colab**
+- **Excel** (data source format)
+- **SQL** (for structured queries, if applicable)
+
+---
+
+## 📈 Key Analyses
+
+- Attrition by department, tenure, and satisfaction
+- Impact of training on performance ratings
+- Salary distribution by education and role
+- Correlation between self-rating and manager rating
+- Work-life balance and its effect on retention
+
+---
 
 ## 👥 Contributors
 - **Mohamed Elmogy** 
 - **Nourhan Farag** 
 - **Doha Mostafa** 
 - **Bassant Yasser** 
-
-
