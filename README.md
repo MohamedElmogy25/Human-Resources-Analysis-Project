@@ -51,10 +51,10 @@ https://public.tableau.com/views/HRDatasetAnalysisDashboard/Dashboard?:language=
 - 📓 **Jupyter Notebook** for analysis and modeling
 
 ## 👥 Contributors
-- **Mohamed Elmogy** -
-- **Nourhan Farag** -
-- **Doha Mostafa** -
-- **Bassant Yasser** -
+- **Mohamed Elmogy** 
+- **Nourhan Farag** 
+- **Doha Mostafa** 
+- **Bassant Yasser** 
 
 ## 🐟 License
 This project is open-source and available under the MIT License.
