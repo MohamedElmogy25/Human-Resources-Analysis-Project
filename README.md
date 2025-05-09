@@ -42,7 +42,6 @@ The dataset contains information on employees, including:
   - Impact of overtime on attrition
   - Job role-wise attrition heatmap
 ![HR Dashboard](dashboard-tableau/Dashboard.png)
-https://public.tableau.com/views/HRDatasetAnalysisDashboard/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ## 🛠️ Tools & Technologies
 - 🐍 **Python** (pandas, numpy, matplotlib, seaborn, scikit-learn)
